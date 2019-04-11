@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+
+
+</head>
+
+<body>
+
+
+
+    <div class="header">
+
+
+      <h1>Best Animal Trivia</h1>
+      <button id="startButton" class="btn btn-primary btn-lg" type="button" name="button" onclick="startGame()">start</button>
+    </div>
+
+    <div id="startGame">
+
+      <p id="timer"></p>
+      <form class="testQuestions" id="quiz" name="quiz">
+
+        <p>What is a rhinocero's horn made out of?</p>
+        <input type="radio" id="mc" name="question1" value="Saliva"> Saliva <br>
+        <input type="radio" id="mc" name="question1" value="Javascript">Javascript <br>
+        <input type="radio" id="mc" name="question1" value="Bone">Bone <br>
+        <input type="radio" id="mc" name="question1" value="Hair">Hair <br>
+
+
+
+        <p>How long can a snail sleep?</p>
+        <input type="radio" id="mc" name="question2" value="1 week">1 week <br>
+        <input type="radio" id="mc" name="question2" value="3 years">3 years <br>
+        <input type="radio" id="mc" name="question2" value="5 years">5 years <br>
+        <input type="radio" id="mc" name="question2" value="1 hour">1 hour <br>
+
+        <p>How high can Elephants jump?</p>
+
+        <input type="radio" id="mc" name="question3" value="Not at all">Not at all<br>
+        <input type="radio" id="mc" name="question3" value="1 inch">1 inch<br>
+        <input type="radio" id="mc" name="question3" value="10 inch">10 inches<br>
+        <input type="radio" id="mc" name="question3" value="1 foot">1 foot<br>
+
+
+        <p>What does the Chevrotain?</p>
+
+        <input type="radio" id="mc" name="question4" value="Deer">Deer<br>
+        <input type="radio" id="mc" name="question4" value="Fish">Fish<br>
+        <input type="radio" id="mc" name="question4" value="Snake">Snake<br>
+        <input type="radio" id="mc" name="question4" value="Dog">Dog<br>
+
+
+
+
+
+
+      </form>
+
+      <input id="button" class="btn btn-primary btn-lg" type="button" value="I'm finished!" onclick="check(), stopTimer();">
+
+    </div>
+
+    <div id="finished">
+
+
+      <div id="after_Submit">
+
+        <p id="message"></p>
+        <p id="number_correct"></p>
+        <img id="picture">
+      </div>
+
+    </div>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js">
+
+  </script>
+  <script src="assets/scripts/script.js">
+
+  </script>
+
+
+</body>

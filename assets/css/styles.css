@@ -1,0 +1,63 @@
+body {
+  background-color: #3a9679;
+  color: #11144c;
+  font-size: 1em;
+}
+
+#after_Submit {
+  visibility: hidden;
+  display: block;
+  float: right;
+  background-color: #fabc60;
+  margin-right: 0px;
+  margin-top: 150px;
+  position: absolute;
+  right: 265px;
+  top: 120px;
+
+
+}
+
+#startGame {
+  visibility: hidden;
+  display: inline-block;
+  display: block;
+  float: left;
+  margin-left: 40px;
+  background-color: #e16262;
+  border-style: solid;
+  border-width: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+
+}
+
+#startButton {
+  visibility: visible;
+  margin-left: 30px;
+}
+
+#button {
+  margin-top: 10px;
+}
+
+h1 {
+  margin-left: 35px;
+}
+
+#finished {
+  visibility: hidden;
+  display: block;
+  float: right;
+  background-color: #fabc60;
+  height: 710px;
+  width: 900px;
+  margin-top: 0px;
+  margin-right: 100px;
+  text-align: center;
+  border-style: solid;
+  border-width: 5px;
+}
+p{
+  font-size: 1.5em;
+}
